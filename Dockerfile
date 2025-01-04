@@ -18,6 +18,6 @@ FROM nginx:alpine
 COPY --from=build /app/build /usr/share/nginx/html
 
 LABEL org.opencontainers.image.source https://github.com/honeybadgerbotnft/honeybadgerbotnft.github.io
-LABEL org.opencontainers.image.description Docker Image of my Personal Portfolio.
+LABEL org.opencontainers.image.description Docker Image of my Personal hbtradingbot.
 
 EXPOSE 80

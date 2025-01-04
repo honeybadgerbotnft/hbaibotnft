@@ -19,9 +19,9 @@
 	<a href="https://github.com/honeybadgerbotnft/honeybadgerbotnft.github.io">
 		<img src="src/screenshots/icon.png" alt="Logo" width="80" height="80"/>
 	</a>
-	<h3 align="center">Honey Badger (honeybadgerbotnft)'s Personal Portfolio</h3>
+	<h3 align="center">Honey Badger (honeybadgerbotnft)'s Personal hbtradingbot</h3>
 	<p align="center">
-		This is the source code for my Personal Portfolio.
+		This is the source code for my Personal hbtradingbot.
 		<br/>
 		<a href="https://github.com/honeybadgerbotnft/honeybadgerbotnft.github.io"><strong>Explore the docs »</strong></a>
 		<br/>
@@ -264,9 +264,9 @@ docker --version
 	- About
 	- Skill
 	- Education
-- Portfolio
-- Training
-- Achievement
+- hbtradingbot
+- myjourney
+- nftcollection
 - Contact
 
 
@@ -328,10 +328,10 @@ docker --version
     |   |       about.component.html
     |   |       about.component.ts
     |   |       
-    |   +---achievement
-    |   |       achievement.component.css
-    |   |       achievement.component.html
-    |   |       achievement.component.ts
+    |   +---nftcollection
+    |   |       nftcollection.component.css
+    |   |       nftcollection.component.html
+    |   |       nftcollection.component.ts
     |   |       
     |   +---application
     |   |       application.component.css
@@ -365,10 +365,10 @@ docker --version
     |   |       page-not-found.component.ts
     |   |       page-not-found.module.ts
     |   |       
-    |   +---portfolio
-    |   |       portfolio.component.css
-    |   |       portfolio.component.html
-    |   |       portfolio.component.ts
+    |   +---hbtradingbot
+    |   |       hbtradingbot.component.css
+    |   |       hbtradingbot.component.html
+    |   |       hbtradingbot.component.ts
     |   |       
     |   +---quote
     |   |       quote.component.css
@@ -380,10 +380,10 @@ docker --version
     |   |       social.component.html
     |   |       social.component.ts
     |   |       
-    |   +---training
-    |   |       training.component.css
-    |   |       training.component.html
-    |   |       training.component.ts
+    |   +---myjourney
+    |   |       myjourney.component.css
+    |   |       myjourney.component.html
+    |   |       myjourney.component.ts
     |   |       
     |   \---waifu
     |           Model.ts
@@ -444,12 +444,12 @@ docker --version
     |   |   |   quote-img.webp
     |   |   |   safari-pinned-tab.svg
     |   |   |   
-    |   |   +---achievement
+    |   |   +---nftcollection
     |   |   |       DataScience.webp
     |   |   |       HackerRank.webp
     |   |   |       Hacktoberfest.webp
     |   |   |       
-    |   |   \---portfolio
+    |   |   \---hbtradingbot
     |   |           A-Social-Media.webp
     |   |           AI-Image-Caption-Bot.webp
     |   |           AI-Music-Generation.webp

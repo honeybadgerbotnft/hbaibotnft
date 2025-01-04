@@ -8,9 +8,9 @@ import {HomeComponent} from "../home/home.component";
 import {NavbarComponent} from "../navbar/navbar.component";
 import {AboutComponent} from "../about/about.component";
 import {QuoteComponent} from "../quote/quote.component";
-import {PortfolioComponent} from "../portfolio/portfolio.component";
-import {TrainingComponent} from "../training/training.component";
-import {AchievementComponent} from "../achievement/achievement.component";
+import {hbtradingbotComponent} from "../hbtradingbot/hbtradingbot.component";
+import {myjourneyComponent} from "../myjourney/myjourney.component";
+import {nftcollectionComponent} from "../nftcollection/nftcollection.component";
 import {ContactComponent} from "../contact/contact.component";
 import {SocialComponent} from "../social/social.component";
 import {FooterComponent} from "../footer/footer.component";
@@ -26,9 +26,9 @@ const routes: Routes = [{ path: '', component: ApplicationComponent }];
 		NavbarComponent,
 		AboutComponent,
 		QuoteComponent,
-		PortfolioComponent,
-		TrainingComponent,
-		AchievementComponent,
+		hbtradingbotComponent,
+		myjourneyComponent,
+		nftcollectionComponent,
 		ContactComponent,
 		SocialComponent,
 		FooterComponent,

@@ -19,9 +19,9 @@
 	<a href="https://github.com/honeybadgerbotnft/honeybadgerbotnft.github.io">
 		<img src="screenshots/icon.png" alt="Logo" width="80" height="80"/>
 	</a>
-	<h3 align="center">Honey Badger (honeybadgerbotnft)'s Personal Portfolio</h3>
+	<h3 align="center">Honey Badger (honeybadgerbotnft)'s Personal hbtradingbot</h3>
 	<p align="center">
-		This is the source code for my Personal Portfolio.
+		This is the source code for my Personal hbtradingbot.
 		<br/>
 		<a href="https://github.com/honeybadgerbotnft/honeybadgerbotnft.github.io"><strong>Explore the docs »</strong></a>
 		<br/>
@@ -264,9 +264,9 @@ docker --version
 	- About
 	- Skill
 	- Education
-- Portfolio
-- Training
-- Achievement
+- hbtradingbot
+- myjourney
+- nftcollection
 - Contact
 
 
@@ -371,12 +371,12 @@ docker --version
 |   |   |   quote-img.webp
 |   |   |   safari-pinned-tab.svg
 |   |   |   
-|   |   +---achievement
+|   |   +---nftcollection
 |   |   |       DataScience.webp
 |   |   |       HackerRank.webp
 |   |   |       Hacktoberfest.webp
 |   |   |       
-|   |   \---portfolio
+|   |   \---hbtradingbot
 |   |           A-Social-Media.webp
 |   |           AI-Image-Caption-Bot.webp
 |   |           AI-Music-Generation.webp
