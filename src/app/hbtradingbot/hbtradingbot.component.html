@@ -1,13 +1,83 @@
-<section class="section pointer" id=hbtradingbot>
-    <div class=container>
-        <div class="row justify-content-center txt-bg txt-bg-hbtradingbot">
-            <div class=col-lg-6><div class="wow fadeIn section-title text-center mb-4 pb-2">
-                <div class="mb-5 pb-3"> <i class="far fa-clone h1 text-muted"></i></div>
-                <h2 class="h3 font-weight-bold">Honey Badger Algorithmic Trading Bot</h2>
-<p class="text-muted mx-auto mb-0 mt-4 para-desc">Some of the key aspects</p></div>
-</div></div><div class="row container-grid mt-4 pt-2">
-    <div *ngFor="let project of hbtradingbotData" class="wow {{project['animationClass']}} col-lg-4 spacing" [attr.data-wow-delay]="[project['delay']]" >
-        <ng-template #title>
-            <strong> <em>Click To Checkout My Code.</em> </strong></ng-template>
-            <a class="item-box m-2" [placement]="[project['placement']]" [ngbTooltip]="title" rel="noreferrer" aria-label="project(opens in a new tab)" 
-            href="https://github.com/honeybadgerbotnft/{{project['project']}}" target="_blank"><img class="item-container img-fluid mx-auto" src="assets/images/hbtradingbot/{{project['project']}}.webp" alt="{{project['project'].replaceAll('-',' ')}}" title="{{project['project'].replaceAll('-',' ')}}" width="698" height="543" loading="lazy"><div class=item-mask><div class="item-caption text-white text-center"><h3 class="h5">{{project['project'].replaceAll('-',' ')}}</h3><p class=text-uppercase>{{project['description']}}</p></div></div></a></div></div></div></section>
+<section class="section pointer hbtradingbot-section position-relative" id="hbtradingbot"
+[ngClass]="{'hbtradingbot-section-night': darkTheme}">
+    <div class="hbtradingbot-bg position-absolute top-0 left-0 width-full height-full"></div>
+    <img src="assets/images/{{hbtradingbotData['background']}}" 
+    title="hbtradingbot Background Image" 
+    class="hbtradingbot-bg-cloud position-absolute bottom-0" 
+    alt="hbtradingbot Background Image" loading="lazy">
+    <div class="container z-1">
+    <div class="position-relative mb-6 mx-auto mx-md-0 width-175">
+    <div class="sun position-relative rounded-circle">
+    <div *ngFor="let sun of hbtradingbotData['sun']" 
+    class="sun-{{sun}} rounded-circle top-0 left-0 position-absolute"></div></div>
+    <div *ngFor="let developTime of hbtradingbotData['developTime']" 
+    class="develop-time develop-time-{{developTime['time']}} rounded-circle position-absolute"
+     [ngStyle]="{'left':developTime['style']['left'],'top':developTime['style']['top']}"></div>
+     <div class="moon position-absolute top-0">
+    <div *ngFor="let dot of hbtradingbotData['moon']['dot']" 
+    class="moon-{{dot}} d-block rounded-circle position-absolute"></div>
+    <img *ngFor="let name of hbtradingbotData['moon']['name']" 
+    src="assets/images/{{name.toLowerCase()+'.svg'}}" alt="{{name.toLowerCase()}}" 
+    title="{{name.toLowerCase()}}" class="{{name.toLowerCase()+'-svg'}} position-absolute" 
+    loading="lazy"></div></div>
+    <div class="row justify-content-center txt-bg txt-bg-hbtradingbot">
+        <div class=col-lg-6><div class="section-title text-center mb-4 pb-2 wow fadeIn">
+    <div class="mb-5 pb-3"> <i class="fas fa-infinity h1 text-muted"></i></div>
+    <h2 class="h3 font-weight-bold" id=my-hbtradingbot>Honey Badger Algorithmic Trading Bot </h2>
+    <p class="text-muted mx-auto mb-0 mt-4 para-desc">some of key aspects</p></div></div>
+</div>
+
+<div  class=row>
+<div class="hbtradingbot-flip-box mt-4 pt-2">
+    <div class="hbtradingbot-front-flip text-center p-5">
+    <div class=hbtradingbot-desc><h3 class="h5 font-weight-bold mb-3">
+        
+        
+<div *ngFor="let data of responseData" class="dataHolder">
+    
+     <div style="font-weight:bold;">{{calculateDiff(data.sent)}} days</div>
+  </div>
+
+    </h3>
+    <p class="text-muted mb-0">Honey Badger Bot </p>
+    <p class="text-muted mb-0">running without interaction </p>
+    <p class="text-muted mb-0"> since 10/10/2022</p>
+</div></div>
+    <div class="hbtradingbot-back-flip text-center text-white p-4">
+        <div class="mb-1">The first buy trade had opened on 10/10/2022 </div><br><ng-template #title><strong> 
+         </strong></ng-template>
+    
+</div></div>
+
+<div class="hbtradingbot-flip-box mt-4 pt-2">
+    <div class="hbtradingbot-front-flip text-center p-5">
+    <div class=hbtradingbot-desc><h3 class="h5 font-weight-bold mb-3">56000 Signals </h3>
+    <p class="text-muted mb-0">and still counting </p>
+    <p class="text-muted mb-0">are sent to Executer by Analyzer</p></div></div>
+    <div class="hbtradingbot-back-flip text-center text-white p-4">
+        <div class="mb-1">These signals are both sent to Telegram Chanels and Executer. 
+            Telegram chanels is for manuel trades on High Time Frame if one want to do it.
+            Executer decides to open a trade or not.
+             </div><br><ng-template #title><strong> 
+        </strong></ng-template>
+    
+</div></div>
+
+<div class="hbtradingbot-flip-box mt-4 pt-2">
+    <div class="hbtradingbot-front-flip text-center p-5">
+    <div class=hbtradingbot-desc><h3 class="h5 font-weight-bold mb-3">4500 trades </h3>
+    <p class="text-muted mb-0">had done profitably </p>
+    <p class="text-muted mb-0">All trades are carried by Honey Badger Bot </p></div></div>
+    <div class="hbtradingbot-back-flip text-center text-white p-4">
+        <div class="mb-1">Honey Badger Bots Executer decides to trade based on how profitably it is the trade.
+            If it finds a High Time Frame trade, it can decide to open also All Low Time Frame trades. 
+      
+        </div><br><ng-template #title><strong> 
+        <em>Link</em> </strong></ng-template>
+    
+</div></div>
+
+
+</div>
+
+</div></section>
