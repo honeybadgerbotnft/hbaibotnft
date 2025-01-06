@@ -8,7 +8,7 @@ import {SwUpdate} from "@angular/service-worker";
 })
 
 export class AppComponent implements AfterViewInit,OnInit {
-	title = 'Honey Badger (honeybadgerbotnft)\'s Personal hbtradingbot';
+	title = 'Honey Badger (honeybadgerbotnft)\'s  hbtradingbot';
 
 	
 
@@ -31,7 +31,7 @@ export class AppComponent implements AfterViewInit,OnInit {
 		document.head.appendChild(link);
 
 		console.log(`%c${this.title}`, "color:#F56540; font-size:27px");
-		console.log("%chttps://github.com/honeybadgerbotnft/honeybadgerbotnft.github.io", "font-size:17px");
+		console.log("%chttps://honeybadgerbotnft.github.io/hbaibotnft.github.io/", "font-size:17px");
 	}
 
 	ngAfterViewInit() : void {
