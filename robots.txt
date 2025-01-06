@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://honeybadgerbotnft.github.io/sitemap_index.xml
