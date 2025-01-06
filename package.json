@@ -15,8 +15,8 @@
     "honeybadgernft",
     "Honey Badger AI BOT NFT Page"
   ],
-  "repository": "https://github.com/honeybadgerbotnft/hbaibotnft.github.io",
-  "homepage": "https://honeybadgerbotnft.github.io/hbaibotnft.github.io/",
+  "repository": "https://honeybadgerbotnft.github.io/hbaibotnft/",
+  "homepage": "https://honeybadgerbotnft.github.io/hbaibotnft/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

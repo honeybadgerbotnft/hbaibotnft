@@ -92,7 +92,7 @@ export class WaifuComponent implements OnInit {
 		},
 		'fa-info-circle': (event: any) => {
 			event.preventDefault();
-			open("https://github.com/honeybadgerbotnft/honeybadgerbotnft.github.io/");
+			open("https://honeybadgerbotnft.github.io/hbaibotnft/");
 		},
 		'fa-times': (event: any) => {
 			event.preventDefault();
