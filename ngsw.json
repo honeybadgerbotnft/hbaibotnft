@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1736200825548,
+  "timestamp": 1736280191925,
   "index": "https://honeybadgerbotnft.github.io/hbaibotnft/index.html",
   "assetGroups": [
     {
@@ -12,13 +12,13 @@
       },
       "urls": [
         "https://honeybadgerbotnft.github.io/hbaibotnft/705.0aff1014841676e1.js",
-        "https://honeybadgerbotnft.github.io/hbaibotnft/996.07e77252083aec3a.js",
+        "https://honeybadgerbotnft.github.io/hbaibotnft/996.c56a3f07a69d6b6c.js",
         "https://honeybadgerbotnft.github.io/hbaibotnft/favicon.ico",
         "https://honeybadgerbotnft.github.io/hbaibotnft/index.html",
         "https://honeybadgerbotnft.github.io/hbaibotnft/main.62be384c81023eb3.js",
         "https://honeybadgerbotnft.github.io/hbaibotnft/polyfills.59e6f346c3e98f24.js",
-        "https://honeybadgerbotnft.github.io/hbaibotnft/runtime.18202393c2409ee2.js",
-        "https://honeybadgerbotnft.github.io/hbaibotnft/scripts.5c38f351f6559162.js",
+        "https://honeybadgerbotnft.github.io/hbaibotnft/runtime.5de3e76428527dbc.js",
+        "https://honeybadgerbotnft.github.io/hbaibotnft/scripts.a10c8cba3edf0cf6.js",
         "https://honeybadgerbotnft.github.io/hbaibotnft/styles.61b0674320f41b27.css"
       ],
       "patterns": []
@@ -124,12 +124,12 @@
   "hashTable": {
     "https://honeybadgerbotnft.github.io/hbaibotnft/404.4ed6dad8c73a710d.webp": "c55234174be110511c6fdf693770c8dde7f046c1",
     "https://honeybadgerbotnft.github.io/hbaibotnft/705.0aff1014841676e1.js": "3cc857d0d326686a5b5141e40c38c4424a81cc0c",
-    "https://honeybadgerbotnft.github.io/hbaibotnft/996.07e77252083aec3a.js": "52469eb4bda97cf7a087a352961cfb310c8badbb",
+    "https://honeybadgerbotnft.github.io/hbaibotnft/996.c56a3f07a69d6b6c.js": "4e19861a2319e348d88cbe5bc06416fccd65b3a7",
     "https://honeybadgerbotnft.github.io/hbaibotnft/about-bg.7c80c2136d4a089d.svg": "2f4e718723ee93de8349ca37808a09b0d5bbce6c",
     "https://honeybadgerbotnft.github.io/hbaibotnft/apple-touch-icon.png": "8218fb45b26dea0f140a388bcc06c918d08f1d1d",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/css/animate.min.css": "4ce4e9a3c083a51cc474b62f755108b9c81e5881",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/css/font-awesome.min.css": "daa3daa1dfb9c80bb635d4db60bf77bc6fd6d7fa",
-    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/data.min.js": "c558b13d9ef2fefc3b4e85388ba93bb88c9c33e0",
+    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/data.min.js": "5b97c3e4e39e0cea47d6fd811d2fb733d7458e39",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/fonts/BlackOpsOne.svg": "7c13e5df4822e44cfe78f1291757ef7fc4af6d8a",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -175,10 +175,10 @@
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/moon-dark.svg": "c1f86517408bc874dcde9afe3c762c823cb78623",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/moon.svg": "089b276bc50442333ed0cdeb8c9a7adbc1fc1588",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/mstile-144x144.png": "6c2b0740f4b2176c1127d27d21a7cbea5abf8ef0",
-    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/mstile-150x150.png": "3ea68bef887c28d91f7e8b219d6aee799da724b6",
-    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/mstile-310x150.png": "049f463e05674eae257ea400bf2a60dae8d38f97",
-    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/mstile-310x310.png": "7a4eb4f0e448d4390a1b126c922fb96e743c7c14",
-    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/mstile-70x70.png": "96d391f47f482865c3022253d53ca3c5240e1f45",
+    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/mstile-150x150.png": "e3a2a25fae553254f1ff82eb1b0ded0ef1def745",
+    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/mstile-310x150.png": "a4b2dd6ef04813522b8c2a74b2d969bb9abf9c16",
+    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/mstile-310x310.png": "d4da3e0fd60da2ce5789354da0f750f266606dfd",
+    "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/mstile-70x70.png": "a6117e0ad8675e6b23edce2e8771b322e443b3df",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/nftcollection/DataScience.webp": "d17f698e61b409b529a209fcf6620a9b415dbd7e",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/nftcollection/HackerRank.webp": "e816849f0e48195b7466804f20bbfc7e5b48527c",
     "https://honeybadgerbotnft.github.io/hbaibotnft/assets/images/nftcollection/Hacktoberfest.webp": "1dc3b04d84f75f5620f84b0f97ca1c913f1d36ee",
@@ -209,12 +209,12 @@
     "https://honeybadgerbotnft.github.io/hbaibotnft/favicon-16x16.png": "897f537be9e5741b714b45fab9d24a28830f22bd",
     "https://honeybadgerbotnft.github.io/hbaibotnft/favicon-32x32.png": "053c8fbd3b9a6acc1b02f32172933ddad15cb0c9",
     "https://honeybadgerbotnft.github.io/hbaibotnft/favicon.ico": "61ea5e23b3647a514301fbc841632aa209c0902f",
-    "https://honeybadgerbotnft.github.io/hbaibotnft/index.html": "9fa2f9ef431b9f860d2a3deafea856ecd8bdabca",
+    "https://honeybadgerbotnft.github.io/hbaibotnft/index.html": "a42345538147ef0f80bee30ca0be44533b4c32a5",
     "https://honeybadgerbotnft.github.io/hbaibotnft/main.62be384c81023eb3.js": "7dc62793e54208332e6cef8ebfd8df2b8bbf1999",
     "https://honeybadgerbotnft.github.io/hbaibotnft/polyfills.59e6f346c3e98f24.js": "1284234fbf1bbc139eec0299ba42102dd162f043",
     "https://honeybadgerbotnft.github.io/hbaibotnft/quote-img.276516be4284d1eb.webp": "b039fec8834adf3933e58faf2d603a415bebb2ff",
-    "https://honeybadgerbotnft.github.io/hbaibotnft/runtime.18202393c2409ee2.js": "01883d963278d293174673fbe2aadff38776e191",
-    "https://honeybadgerbotnft.github.io/hbaibotnft/scripts.5c38f351f6559162.js": "22d2380cef694d92faf75ce6ff03505a37f09fd8",
+    "https://honeybadgerbotnft.github.io/hbaibotnft/runtime.5de3e76428527dbc.js": "a073184929f2af85fae4211270ccfd91963f49b3",
+    "https://honeybadgerbotnft.github.io/hbaibotnft/scripts.a10c8cba3edf0cf6.js": "afdca64d8c368df0470d8ecf3afc8c536cc9a949",
     "https://honeybadgerbotnft.github.io/hbaibotnft/styles.61b0674320f41b27.css": "a8112361291e8a53e8493502f3dcbe8841480cc4"
   },
   "navigationUrls": [

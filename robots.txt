@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://honeybadgerbotnft.github.io/hbaibotnft.github.io/sitemap_index.xml
+Sitemap: https://honeybadgerbotnft.github.io/hbaibotnft/sitemap_index.xml
