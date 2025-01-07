@@ -26,7 +26,7 @@ export class hbtradingbotComponent implements OnInit {
 
 	responseData = [
 		{
-		  sent: "2022-10-15 10:00:00",
+		  sent: "2022-09-20 20:45:00",
 		}
 	  ];
 	  calculateDiff(sentDate: string) {
