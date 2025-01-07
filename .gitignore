@@ -48,3 +48,4 @@ cmd
 .angular
 src/assets/model/model.py
 src/app/hbtradingbot/deploy.txt
+deploy.txt
